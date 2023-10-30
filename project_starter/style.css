@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;/*Schriftart*/
+    display: flex;/*stellt alle direkten Nachkommen eines Elements in Zeilen oder Spalten dar*/
+    flex-direction: column;/*steuert dabei die Reihenfolge der Element in einer Flexbox*/
+    align-items: center;/*Die Flexbox-Elemente werden an der Mitte der Querachse ausgerichtet*/
+    justify-content: center;/*legt fest, wie die einzelnen flexiblen 
+    Elemente entlang der Hauptachse angeordnet werden*/
+    height: 100vh;/*volle Höhe des Browser-Fensters, vh = viewpoint height*/
+    overflow: hidden;/*verbirgt überlaufende Teile des Elements, 
+    so dass der verbleibende Teil in den umfassenden Block passt*/
+    margin: 0;/*Außenabstand zu Umliegenden Elementen*/
+}
